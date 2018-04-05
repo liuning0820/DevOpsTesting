@@ -2,7 +2,7 @@
 
 ## Unit-Testing-your-Database-Changes
 
-- https://channel9.msdn.com/Shows/DevOps-Lab/Unit-Testing-your-Database-Changes
+- [Unit Testing Your Database Changes](https://channel9.msdn.com/Shows/DevOps-Lab/Unit-Testing-your-Database-Changes)
 
 - [tsqlt:Database Unit Testing Framework](tsqlt.org)
 
@@ -13,7 +13,6 @@
 ## Unit Test Generator
 
 ## .NET Core Unit Testing
-
 
 ## Test Pyramid 金字塔
 
@@ -37,8 +36,6 @@ Its essential point is that you should have many more low-level unit tests than 
 - Red/Green/Refactor
 
   ![Red/Green/Refactor](./docs/images/red-green-refactor-cycle.jpg)
-
-
 
 ## Anatomy of a unit test
 
