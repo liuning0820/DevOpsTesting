@@ -7,7 +7,6 @@
   - [Angular](#angular)
   - [Vue](#vue)
 
-
 ## xUnit.NetCore
 
 ### Download the .NET Core SDK
