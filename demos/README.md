@@ -4,7 +4,7 @@
 
 - xUnit 单元测试示例
   - [xUnit.NetCore](#xUnit.NetCore)
-  - [Angular](#angular)
+  - [MSTest](#MSTest)
   - [Vue](#vue)
 
 ## xUnit.NetCore
@@ -91,3 +91,5 @@ namespace xunit_net_core_demo
 $ dotnet restore && dotnet xunit
 
 ```
+
+## MSTest
