@@ -1,0 +1,7 @@
+language: csharp
+dotnet: 2.0.0
+solution: Bank.sln
+script:
+ - dotnet restore
+ - dotnet build
+ - dotnet test
