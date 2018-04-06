@@ -12,6 +12,8 @@
 
 ## Unit Test Generator
 
+- [IntelliTest](./demos/README.md#IntelliTest) explores your .NET code to generate unit tests.
+
 ## .NET Core Unit Testing
 
 ## Test Pyramid 金字塔

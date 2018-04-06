@@ -30,7 +30,7 @@ $ dotnet new classlib
 
 （2）The result of this project template creates a .NET Standard class library. We actually want a .NET Core class library (since we're writing .NET Core tests), so open the generated .csproj file and edit it so that it looks like this:
 
-```
+```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -82,7 +82,6 @@ namespace xunit_net_core_demo
 
 ```
 
-
 (4) 执行测试
 
 ```
@@ -92,6 +91,20 @@ $ dotnet restore && dotnet xunit
 
 ## MSTest
 
+### Run MSTest using Visual Studio 2017
+
+- Open your solution **./demos/MSTest-visual-studio-demo/Bank.sln** in Visual Studio.
+- In the top menu, click Build -> Build Solution.
+- In the top menu, click Test -> Windows -> Test Explorer.
+
+### Run MSTest using Visual Studio Code
+
+- In the TERMINAL window of the visual studio code
+
+```bash
+cd demos/MSTest-visual-studio-demo/BankTest
+dotnet test
+```
 
 ## IntelliTest
 
@@ -103,11 +116,10 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
 - Support only C# code that targets the .NET Framework.
 
-
 ### Instruction
 
 Use IntelliTest to explore your code and generate unit tests:
 
-- Open your solution in Visual Studio. Then open the class file that has methods you want to test.
+- Open your solution **IntelliTestDemo.sln** in Visual Studio. Then open the class file that has methods you want to test.
 
-- Right-click in a method in your code and choose Run IntelliTest to generate unit tests for the code in your method.
+- Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
