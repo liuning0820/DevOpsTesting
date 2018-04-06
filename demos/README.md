@@ -5,7 +5,7 @@
 - xUnit 单元测试示例
   - [xUnit.NetCore](#xUnit.NetCore)
   - [MSTest](#MSTest)
-  - [Vue](#vue)
+  - [IntelliTest](#IntelliTest)
 
 ## xUnit.NetCore
 
@@ -45,8 +45,6 @@ $ dotnet new classlib
 </Project>
 
 ```
-
-
 
 (3) 添加测试用例
 
@@ -93,3 +91,23 @@ $ dotnet restore && dotnet xunit
 ```
 
 ## MSTest
+
+
+## IntelliTest
+
+### Precondition
+
+The **Create IntelliTest** and **Run IntelliTest** menu commands:
+
+- Are available in only the Enterprise Edition of Visual Studio 2015 and later.
+
+- Support only C# code that targets the .NET Framework.
+
+
+### Instruction
+
+Use IntelliTest to explore your code and generate unit tests:
+
+- Open your solution in Visual Studio. Then open the class file that has methods you want to test.
+
+- Right-click in a method in your code and choose Run IntelliTest to generate unit tests for the code in your method.
