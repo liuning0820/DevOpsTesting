@@ -1,7 +1,7 @@
 language: csharp
 dotnet: 2.0.0
-solution: Bank.sln
+solution: ./demos/MSTest-visual-studio-demo/Bank.sln
 script:
  - dotnet restore
  - dotnet build
- - dotnet test
+ - cd ./demos/MSTest-visual-studio-demo/BankTest && dotnet test
