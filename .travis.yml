@@ -16,5 +16,5 @@ script:
  - cd ./demos/xunit-net-core-demo/
  - dotnet build
  - dotnet xunit
- - cd ./demos/MSTest-visual-studio-demo/BankTest
+ - cd ../MSTest-visual-studio-demo/BankTest
  - dotnet build && dotnet test
