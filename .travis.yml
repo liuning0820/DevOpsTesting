@@ -21,5 +21,6 @@ script:
  - dotnet xunit
  - cd ..
  - cd ..
+ - ls -l demos/MSTest-visual-studio-demo/Bank/obj
  - msbuild /p:Configuration=Debug ./demos/MSTest-visual-studio-demo/BankTest/BankTest.csproj
  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./demos/MSTest-visual-studio-demo/BankTest/bin/Debug/BankTest.dll

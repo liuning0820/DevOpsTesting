@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\niliu\\Documents\\ln-code\\unit-testing-training\\demos\\MSTest-visual-studio-demo\\Bank\\Bank.csproj",
+      "projectUniqueName": "c:\\Users\\niliu\\Documents\\ln-code\\unit-testing-training\\demos\\MSTest-visual-studio-demo\\Bank\\Bank.csproj",
       "projectName": "Bank",
-      "projectPath": "C:\\Users\\niliu\\Documents\\ln-code\\unit-testing-training\\demos\\MSTest-visual-studio-demo\\Bank\\Bank.csproj",
+      "projectPath": "c:\\Users\\niliu\\Documents\\ln-code\\unit-testing-training\\demos\\MSTest-visual-studio-demo\\Bank\\Bank.csproj",
       "packagesPath": "C:\\Users\\niliu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\niliu\\Documents\\ln-code\\unit-testing-training\\demos\\MSTest-visual-studio-demo\\Bank\\obj\\",
+      "outputPath": "c:\\Users\\niliu\\Documents\\ln-code\\unit-testing-training\\demos\\MSTest-visual-studio-demo\\Bank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
