@@ -1,5 +1,6 @@
 language: csharp
 solution: ./demos/MSTest-visual-studio-demo/Bank.sln
+dotnet: 2.0.0
 install:
   - nuget restore ./demos/MSTest-visual-studio-demo/Bank.sln
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
