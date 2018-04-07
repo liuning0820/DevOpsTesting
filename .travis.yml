@@ -13,7 +13,6 @@ language: csharp
 mono: none
 dotnet: 2.0.3
 script:
- - dotnet restore
  - cd ./demos/xunit-net-core-demo/
  - dotnet build
- - dotnet test
+ - dotnet xunit
