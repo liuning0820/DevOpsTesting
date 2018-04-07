@@ -14,6 +14,6 @@ mono: none
 dotnet: 2.0.3
 script:
  - dotnet restore
- - cd ./demos/MSTest-visual-studio-demo/BankTest/BankTests.sln
+ - cd ./demos/MSTest-visual-studio-demo/BankTest/
  - dotnet build
  - dotnet test
