@@ -1,5 +1,7 @@
 ﻿# DevOps Testing 技术指南
 
+[![Build Status](https://travis-ci.org/liuning0820/DevOpsTesting.svg?branch=master)](https://travis-ci.org/liuning0820/DevOpsTesting)
+
 ## Unit-Testing-your-Database-Changes
 
 - [Unit Testing Your Database Changes](https://channel9.msdn.com/Shows/DevOps-Lab/Unit-Testing-your-Database-Changes)
