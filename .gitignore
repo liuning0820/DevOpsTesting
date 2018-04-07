@@ -1,7 +1,8 @@
 demos/xunit-net-core-demo/bin
 demos/xunit-net-core-demo/obj
 /demos/MSTest-visual-studio-demo/Bank/bin/Debug/netstandard2.0
-/demos/MSTest-visual-studio-demo/Bank/obj
+/demos/MSTest-visual-studio-demo/Bank/obj/Debug
+/demos/MSTest-visual-studio-demo/Bank/obj/Release
 /demos/MSTest-visual-studio-demo/BankTest/bin/Debug
 /demos/MSTest-visual-studio-demo/BankTest/obj/
 /demos/MSTest-visual-studio-demo/packages
