@@ -19,19 +19,19 @@
 
 matrix:
   include:
-    language: python
-    python:
-      - "2.7"
-      - "3.6"
-    script:
-      - cd ./demos/python-pytest-demo
-      - python --version
-      - pytest -v
+    - language: python
+      python:
+        - "2.7"
+        - "3.6"
+      script:
+        - cd ./demos/python-pytest-demo
+        - python --version
+        - pytest -v
 
-    language: csharp
-    mono: none
-    dotnet: 2.0.0
-    script:
-      - cd ./demos/xunit-net-core-demo/
-      - dotnet build
-      - dotnet xunit
+    - language: csharp
+      mono: none
+      dotnet: 2.0.0
+      script:
+        - cd ./demos/xunit-net-core-demo/
+        - dotnet build
+        - dotnet xunit
