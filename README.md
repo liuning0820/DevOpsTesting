@@ -47,7 +47,7 @@ Its essential point is that you should have many more low-level unit tests than 
 - Act
 - Assert
 
-## .NET Core Unit Testing
+## .NET Core Unit Testing Framework
 
 ### [xUnit](./docs/xunit.md)
 
@@ -58,6 +58,11 @@ Its essential point is that you should have many more low-level unit tests than 
 - built-in unittest
 - pytest
 - nosetests
+
+## JavaScript/Node.js Unit Testing Framework
+
+- Jasmine
+- Mocha
 
 ## Reference
 
