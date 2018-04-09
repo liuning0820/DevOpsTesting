@@ -8,39 +8,24 @@
 #   - msbuild /p:Configuration=Debug ./demos/MSTest-visual-studio-demo/Bank.sln
 #   - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./demos/MSTest-visual-studio-demo/BankTest/bin/Debug/BankTest.dll
 
-# sudo: required
-# language: csharp
-# mono: none
-# dotnet: 2.0.0
-# script:
-#  - cd ./demos/xunit-net-core-demo/
-#  - dotnet build
-#  - dotnet xunit
+sudo: required
+language: csharp
+language: python
+mono: none
+dotnet: 2.0.0
 
-jobs:
-  include:
-  stages:
-  - name: csharp-test
-    # require the branch name to be master
-    sudo: required
-    language: csharp
-    mono: none
-    dotnet: 2.0.0
-    script:
-    - cd ./demos/xunit-net-core-demo/
-    - dotnet build
-    - dotnet xunit
+python:
+  - "2.7"
+  - "3.6"
+cache: pip
+install:
+  - pip install pytest
 
-stages:
-  - name: python-test
-    # require the tag name to match a regular expression
-    language: python
-    python:
-      - "2.7"
-      - "3.6"
-    cache: pip
-    install:
-      - pip install pytest
-    script:
-      - cd ./demos/python-pytest-demo
-      - pytest -v
+
+script:
+ - cd ./demos/xunit-net-core-demo/
+ - dotnet build
+ - dotnet xunit
+script:
+  - cd ../demos/python-pytest-demo
+  - pytest -v
