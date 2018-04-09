@@ -17,7 +17,8 @@
 #  - dotnet build
 #  - dotnet xunit
 
-
+jobs:
+  include:
   stages:
   - name: csharp-test
     # require the branch name to be master
