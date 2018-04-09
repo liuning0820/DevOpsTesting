@@ -158,4 +158,5 @@ cd demos\python-pytest-demo
 pytest
 # python -m pytest #anoher way to run
 pytest -h # show help on command line and config file options
+pytest --junit-xml=report.xml #Run tests and view XML xUnit-style test report
 ```
