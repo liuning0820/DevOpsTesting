@@ -35,3 +35,12 @@ matrix:
         - cd ./demos/xunit-net-core-demo/
         - dotnet build
         - dotnet xunit
+
+
+    - language: node_js
+      node_js:
+        - "iojs"
+        - "7"
+      script:
+        - cd ./demos/nodejs-mocha-demo/
+        - npm test
