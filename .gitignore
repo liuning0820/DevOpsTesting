@@ -14,3 +14,4 @@ demos/xunit-net-core-demo/obj
 .vs/slnx.sqlite
 
 demos/python-pytest-demo/__pycache__/
+demos/python-pytest-demo/.pytest_cache/

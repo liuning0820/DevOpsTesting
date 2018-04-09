@@ -129,3 +129,33 @@ Use IntelliTest to explore your code and generate unit tests:
 
 ## python-pytest-demo
 
+### Prerequisites
+
+- Python 2.7+ or Python 3:
+
+```sh
+$ python --version
+Python 2.7.1+
+```
+
+- pytest
+
+To check if pytest is installed already:
+
+```sh
+$ pytest --version
+This is pytest version 2.7.0, imported from /usr/lib/python2.7/site-packages/pytest.pyc
+
+```
+
+If not, then see [pytest](https://docs.pytest.org/en/latest/).
+or use **pip install pytest** to install pytest if you already have pip installed.
+
+### run the test
+
+```sh
+cd demos\python-pytest-demo
+pytest
+# python -m pytest #anoher way to run
+pytest -h # show help on command line and config file options
+```
