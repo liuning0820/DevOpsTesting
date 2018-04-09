@@ -23,9 +23,9 @@ matrix:
     python:
       - "2.7"
       - "3.6"
-    cache: pip
-    install:
-      - pip install pytest
+    # cache: pip
+    # install:
+    #   - pip install pytest
     script:
       - cd ./demos/python-pytest-demo
       - pytest -v
