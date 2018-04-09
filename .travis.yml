@@ -41,7 +41,7 @@ matrix:
       node_js:
         - "8"
       before_install:
-        - npm install
+        - npm install mocha
       script:
         - cd ./demos/nodejs-mocha-demo/        
         - npm test
