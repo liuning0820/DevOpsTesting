@@ -43,4 +43,4 @@ matrix:
         - "7"
       script:
         - cd ./demos/nodejs-mocha-demo/
-        - npm test
+        - npm update && npm test
