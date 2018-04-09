@@ -39,9 +39,9 @@ matrix:
 
     - language: node_js
       node_js:
-        - "iojs"
-        - "7"
-      script:
-        - cd ./demos/nodejs-mocha-demo/
+        - "8"
+      before_install:
         - npm install
+      script:
+        - cd ./demos/nodejs-mocha-demo/        
         - npm test
