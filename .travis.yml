@@ -8,7 +8,7 @@
 #   - msbuild /p:Configuration=Debug ./demos/MSTest-visual-studio-demo/Bank.sln
 #   - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./demos/MSTest-visual-studio-demo/BankTest/bin/Debug/BankTest.dll
 
-# sudo: required
+sudo: required
 # language: csharp
 # mono: none
 # dotnet: 2.0.0
