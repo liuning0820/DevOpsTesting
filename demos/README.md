@@ -10,6 +10,9 @@
 - python 单元测试示例
   - [pytest](#python-pytest-demo)
 
+- nodejs unit test demo
+  - [mocha](#nodejs-mocha-demo)
+
 ## xUnit.NetCore
 
 ### Download the .NET Core SDK
@@ -159,4 +162,18 @@ pytest
 # python -m pytest #anoher way to run
 pytest -h # show help on command line and config file options
 pytest --junit-xml=report.xml #Run tests and view XML xUnit-style test report
+```
+
+
+## nodejs-mocha-demo
+
+### run the test
+
+```nodejs
+cd demos\nodejs-mocha-demo
+node app.js
+<!-- or using npm command wich read the package.json to start -->
+<!-- npm start -->
+npm test
+
 ```

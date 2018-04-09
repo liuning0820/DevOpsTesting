@@ -16,3 +16,7 @@ demos/xunit-net-core-demo/obj
 demos/python-pytest-demo/__pycache__/
 demos/python-pytest-demo/.pytest_cache/
 demos/python-pytest-demo/report.xml
+
+
+demos/nodejs-mocha-demo/node_modules/
+demos/nodejs-mocha-demo/node_modules/.bin/mkdirp.cmd
