@@ -7,6 +7,9 @@
   - [MSTest](#MSTest)
   - [IntelliTest](#IntelliTest)
 
+- python 单元测试示例
+  - [pytest](#python-pytest-demo)
+
 ## xUnit.NetCore
 
 ### Download the .NET Core SDK
@@ -123,3 +126,6 @@ Use IntelliTest to explore your code and generate unit tests:
 - Open your solution **IntelliTestDemo.sln** in Visual Studio. Then open the class file that has methods you want to test.
 
 - Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
+
+## python-pytest-demo
+

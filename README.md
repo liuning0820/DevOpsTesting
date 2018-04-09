@@ -16,6 +16,7 @@
 
 - [IntelliTest](./demos/README.md#IntelliTest) explores your .NET code to generate unit tests.
 
+- [Unit Test Boilerplate Generator](https://github.com/Microsoft/UnitTestBoilerplateGenerator) extension for Visual Studio that generates a unit test boilerplate from a given class.
 
 ## Test Pyramid 金字塔
 

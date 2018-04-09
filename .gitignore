@@ -12,3 +12,5 @@ demos/xunit-net-core-demo/obj
 /demos/IntelliTest-UnitTestGenerator-Demo/IntelliTestDemo/obj
 /demos/IntelliTest-UnitTestGenerator-Demo/IntelliTestDemo/Bank.csproj.user
 .vs/slnx.sqlite
+
+demos/python-pytest-demo/__pycache__/
