@@ -177,3 +177,14 @@ node app.js
 npm test
 
 ```
+
+
+### Deploy to Azure through Travis CI
+
+```bash
+        az webapp deployment user set --user-name liuning0820 --password 1234ABcd
+        az group create --name azure_deployment_group --location "East Asia"
+        az appservice plan create --name azure_deployment_plan --resource-group azure_deployment_group --sku S1 --is-linux
+        az webapp create --resource-group azure_deployment_group --plan azure_deployment_plan --name azure_deployment_nodejs_app --runtime "NODE|6.9" --deployment-local-git
+
+```
