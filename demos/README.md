@@ -180,10 +180,21 @@ npm test
 
 ### Deploy to Azure through Travis CI
 
+Issues: Updated the travis.yml, the build itself is pass, but seems not deployed.
+
+### Deploy to Azure through Local Git
+
 ```bash
         az webapp deployment user set --user-name liuning0820 --password 1234ABcd
         az group create --name azure_deployment_group --location "East Asia"
         az appservice plan create --name azure_deployment_plan --resource-group azure_deployment_group --sku S1 --is-linux
-        az webapp create --resource-group azure_deployment_group --plan azure_deployment_plan --name azure-deployment-nodejs-app --runtime "NODE|6.9" --deployment-local-git
+        az webapp create --resource-group azure_deployment_group --plan azure_deployment_plan --name azure-deployment-nodejs-app --runtime "NODE|8.1" --deployment-local-git
+
+git remote add azure https://liuning0820@azure-deployment-nodejs-app.scm.azurewebsites.net/azure-deployment-nodejs-app.git
+
+git push azure master
 
 ```
+
+The deployment happened, but unable to determine which solution file to build.
+
