@@ -47,6 +47,8 @@ matrix:
         - cd ./demos/nodejs-mocha-demo/
         - npm install    
         - npm test
+      after_success:
+        - npm run coverage
       deploy:
         provider: azure_web_apps
         verbose: true
