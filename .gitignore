@@ -27,3 +27,4 @@ demos/IntelliTest-UnitTestGenerator-Demo/Bank.Tests/obj/
 
 
 demos/nodejs-mocha-demo/coverage/
+demos/nodejs-mocha-demo/.nyc_output/
