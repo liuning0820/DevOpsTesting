@@ -24,3 +24,6 @@ demos/nodejs-mocha-demo/node_modules/.bin/mkdirp.cmd
 
 demos/IntelliTest-UnitTestGenerator-Demo/Bank.Tests/bin/
 demos/IntelliTest-UnitTestGenerator-Demo/Bank.Tests/obj/
+
+
+demos/nodejs-mocha-demo/coverage/
