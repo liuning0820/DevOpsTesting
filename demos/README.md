@@ -27,10 +27,10 @@ $ dotnet --version
 
 ### Steps
 
-（1）go to `demos/xunit-net-core-demo`，run the command below。
+（1）go to `demos/dotnet-core-xunit-demo`，run the command below。
 
 ```bash
-$ cd demos/xunit-net-core-demo
+$ cd demos/dotnet-core-xunit-demo
 $ dotnet new classlib
 ```
 

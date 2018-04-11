@@ -13,7 +13,7 @@
 # mono: none
 # dotnet: 2.0.0
 # script:
-#  - cd ./demos/xunit-net-core-demo/
+#  - cd ./demos/dotnet-core-xunit-demo/
 #  - dotnet build
 #  - dotnet xunit
 
@@ -32,7 +32,7 @@ matrix:
       mono: none
       dotnet: 2.0.0
       script:
-        - cd ./demos/xunit-net-core-demo/
+        - cd ./demos/dotnet-core-xunit-demo/
         - dotnet build
         - dotnet xunit
 

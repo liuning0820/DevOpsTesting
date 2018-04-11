@@ -1,5 +1,6 @@
-demos/xunit-net-core-demo/bin
-demos/xunit-net-core-demo/obj
+demos/dotnet-core-xunit-demo/bin
+demos/dotnet-core-xunit-demo/obj
+
 /demos/MSTest-visual-studio-demo/Bank/bin/Debug/netstandard2.0
 /demos/MSTest-visual-studio-demo/Bank/obj/Debug
 /demos/MSTest-visual-studio-demo/Bank/obj/Release
@@ -28,3 +29,4 @@ demos/IntelliTest-UnitTestGenerator-Demo/Bank.Tests/obj/
 
 demos/nodejs-mocha-demo/coverage/
 demos/nodejs-mocha-demo/.nyc_output/
+
