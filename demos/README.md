@@ -1,13 +1,13 @@
-# 课堂练习的操作指导
+# Instruction for Demos
 
-## 目录
+## Table Of Context
 
-- .NET 单元测试示例
+- .NET unit test demo
   - [xUnit.NetCore](#xUnit.NetCore)
   - [MSTest](#MSTest)
   - [IntelliTest](#IntelliTest)
 
-- python 单元测试示例
+- python unit test demo
   - [pytest](#python-pytest-demo)
 
 - nodejs unit test demo
