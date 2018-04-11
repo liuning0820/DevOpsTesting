@@ -9,10 +9,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "nyc --reporter=html --reporter=text mocha --recursive --exit",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "coverage-check": "nyc --reporter=html mocha --recursive --exit",
-    "coverage-check-80": "nyc --reporter=html check-coverage --lines 80 --functions 80 --branches 80 mocha --recursive --exit"
+    "test": "nyc --reporter=html --reporter=text mocha --recursive --exit"
   },
   "repository": {
     "type": "git",
