@@ -49,6 +49,7 @@ matrix:
         - npm test
       deploy:
         provider: azure_web_apps
+        verbose: true
         username: liuning0820       # If AZURE_WA_USERNAME isn't set
         password: 1234ABcd   # If AZURE_WA_PASSWORD isn't set
         site: azure-deployment-nodejs-app       # If AZURE_WA_SITE isn't set

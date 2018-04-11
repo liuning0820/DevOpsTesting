@@ -25,9 +25,9 @@ $ dotnet --version
 
 ```
 
-### 操作步骤
+### Steps
 
-（1）进入`demos/xunit-net-core-demo`目录，命令行执行下面的命令。
+（1）go to `demos/xunit-net-core-demo`，run the command below。
 
 ```bash
 $ cd demos/xunit-net-core-demo
@@ -52,9 +52,9 @@ $ dotnet new classlib
 
 ```
 
-(3) 添加测试用例
+(3) Add test case:
 
-编辑 Class1.cs
+Edit Class1.cs
 
 ```cs
 
@@ -88,7 +88,7 @@ namespace xunit_net_core_demo
 
 ```
 
-(4) 执行测试
+(4) Excute the test
 
 ```
 $ dotnet restore && dotnet xunit

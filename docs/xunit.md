@@ -1,4 +1,4 @@
-# xUnit 技术
+# xUnit
 
 - xUnit is written by the original inventor of NUnit v2.
 - xUnit.net is the latest technology for unit testing C#, F#, VB.NET and other .NET languages.
