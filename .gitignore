@@ -1,6 +1,12 @@
 demos/dotnet-core-xunit-demo/bin
 demos/dotnet-core-xunit-demo/obj
 
+demos/dotnet-core-mstest-demo/GameOfLife/obj
+demos/dotnet-core-mstest-demo/GameOfLife/bin
+demos/dotnet-core-mstest-demo/GameOfLife.mstest.Tests/obj
+demos/dotnet-core-mstest-demo/GameOfLife.mstest.Tests/bin
+demos/dotnet-core-mstest-demo/.vs
+
 /demos/MSTest-visual-studio-demo/Bank/bin/Debug/netstandard2.0
 /demos/MSTest-visual-studio-demo/Bank/obj/Debug
 /demos/MSTest-visual-studio-demo/Bank/obj/Release
@@ -29,4 +35,6 @@ demos/IntelliTest-UnitTestGenerator-Demo/Bank.Tests/obj/
 
 demos/nodejs-mocha-demo/coverage/
 demos/nodejs-mocha-demo/.nyc_output/
+
+
 
