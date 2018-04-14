@@ -4,6 +4,7 @@
 
 - .NET unit test demo
   - [xUnit.NetCore](#xUnit.NetCore)
+  - [dotnet-core-mstest-demo](#DotNetCoreMSTestDemo)
   - [MSTest](#MSTest)
   - [IntelliTest](#IntelliTest)
 
@@ -94,6 +95,10 @@ namespace xunit_net_core_demo
 $ dotnet restore && dotnet xunit
 
 ```
+
+## DotNetCoreMSTestDemo
+
+TODO
 
 ## MSTest
 
