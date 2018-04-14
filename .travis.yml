@@ -37,6 +37,15 @@ matrix:
         - dotnet xunit
 
 
+      - language: csharp
+      mono: none
+      dotnet: 2.0.0
+      script:
+        - cd ./demos/dotnet-core-mstest-demo
+        - dotnet build -c Release
+        - dotnet test ./GameOfLife.mstest.Tests/GameOfLife.mstest.Tests.csproj -c Release
+
+
     - language: node_js
       node_js:
         - "8"
