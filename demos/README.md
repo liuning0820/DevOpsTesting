@@ -14,6 +14,9 @@
 - nodejs unit test demo
   - [mocha](#nodejs-mocha-demo)
 
+- integration test demo
+  - [rest api testing](#postman-api-testing)
+
 ## xUnit.NetCore
 
 ### Download the .NET Core SDK
@@ -203,3 +206,16 @@ git push azure master
 
 The deployment happened, but unable to determine which solution file to build.
 
+## postman-api-testing
+
+### run the test
+
+
+```sh
+cd ./postman-rest-api-test-demo
+npm install newman --global
+
+newman run examples/sample-collection.json
+
+newman run examples/sample-collection.json --reporters cli
+```
