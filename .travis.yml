@@ -45,6 +45,17 @@ matrix:
         - dotnet build -c Release
         - dotnet test ./GameOfLife.mstest.Tests/GameOfLife.mstest.Tests.csproj -c Release
 
+   - language: node_js
+      node_js:
+        - "8"
+        - "7"
+        - "node"
+
+      script:
+        - cd ./demos/postman-rest-api-test-demo/
+        - npm install newman  
+        - newman run ./PDXCDevOpsTesting.postman_collection.json
+        
 
     - language: node_js
       node_js:
@@ -66,13 +77,4 @@ matrix:
         site: azure-deployment-nodejs-app       # If AZURE_WA_SITE isn't set
 
 
-   - language: node_js
-      node_js:
-        - "8"
-        - "7"
-        - "node"
 
-      script:
-        - cd ./demos/postman-rest-api-test-demo/
-        - npm install newman  
-        - newman run ./PDXCDevOpsTesting.postman_collection.json
