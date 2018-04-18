@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "90ff5db1-f24f-4a57-bfff-c8e35cbfde3d",
+		"name": "PDXCDevOpsTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetLogGroupStats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://u4jad5j3ec.execute-api.us-east-2.amazonaws.com/DEV/getloggroupstats",
+					"protocol": "https",
+					"host": [
+						"u4jad5j3ec",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"DEV",
+						"getloggroupstats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
