@@ -76,3 +76,10 @@ matrix:
         - cd ./demos/postman-rest-api-test-demo/
         - npm install newman  
         - newman run ./PDXCDevOpsTesting.postman_collection.json
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+    recipients:
+        - ning.liu4@hpe.com
