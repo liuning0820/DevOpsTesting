@@ -39,3 +39,5 @@ demos/nodejs-mocha-demo/.nyc_output/
 
 
 .vscode/
+
+.scannerwork/
