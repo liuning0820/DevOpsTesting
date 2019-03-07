@@ -79,10 +79,10 @@ matrix:
 
     - language: java
       addons:
-        sonarcloud:
+        sonarcloud: # Using SonarCloud with Travis CI https://docs.travis-ci.com/user/sonarcloud/
           organization: "liuning0820-github"
           token:
-            secure: $sonarcloud_token # encrypted value of your token
+            secure: $sonarcloud_token # encrypted value of your token https://docs.travis-ci.com/user/environment-variables/#defining-variables-in-repository-settings
       script:
         # other script steps might be done before running the actual analysis
         - sonar-scanner
