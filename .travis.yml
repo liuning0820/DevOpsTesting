@@ -82,4 +82,4 @@ notifications:
     on_success: change
     on_failure: always
     recipients:
-        - ning.liu4@hpe.com
+        - liuning0820@outlook.com
