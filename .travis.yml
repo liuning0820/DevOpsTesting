@@ -77,6 +77,15 @@ matrix:
         - npm install newman  
         - newman run ./PDXCDevOpsTesting.postman_collection.json
 
+addons:
+  sonarcloud:
+    organization: "liuning0820-github"
+    token:
+      secure: $sonarcloud_token # encrypted value of your token
+  script:
+    # other script steps might be done before running the actual analysis
+    - sonar-scanner
+
 notifications:
   email:
     on_success: change
